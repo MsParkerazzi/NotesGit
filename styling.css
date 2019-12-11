@@ -1,0 +1,157 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+/*Background Image*/
+body{
+    font-family: 'Fredericka the Great', cursive;
+    background: url("desktop.jpg") no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/*Style Jumbotron*/
+.jumbotron{
+    background-color: transparent;
+    text-align: center;
+    letter-spacing: 2.5px;
+    padding: 10px;
+    margin-top: 150px;
+}
+
+/*buttons*/
+.signup{
+    margin-top: 150px;   
+}
+
+.green{
+    background-color: rgba(118,42,0, 0.5);
+}
+
+.green:hover{
+    background-color: rgb(252,204,158);
+}
+
+/*Style the footer*/
+.footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding-top: 12px;
+}
+
+
+/*Navigation Bar*/
+.navbar-custom {
+  background-color: #c5835a;
+  border-color: #bc7142;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#d29f80), to(#c5835a));
+  background-image: -webkit-linear-gradient(top, #d29f80, 0%, #c5835a, 100%);
+  background-image: -moz-linear-gradient(top, #d29f80 0%, #c5835a 100%);
+  background-image: linear-gradient(to bottom, #d29f80 0%, #c5835a 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd29f80', endColorstr='#ffc5835a', GradientType=0);
+}
+.navbar-custom .navbar-brand {
+  color: #762a00;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #431800;
+  background-color: transparent;
+}
+.navbar-custom .navbar-text {
+  color: #762a00;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #762a00;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #edd7cb;
+  background-color: transparent;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #edd7cb;
+  background-color: #bc7142;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#bc7142), to(#ca8d67));
+  background-image: -webkit-linear-gradient(top, #bc7142, 0%, #ca8d67, 100%);
+  background-image: -moz-linear-gradient(top, #bc7142 0%, #ca8d67 100%);
+  background-image: linear-gradient(to bottom, #bc7142 0%, #ca8d67 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffbc7142', endColorstr='#ffca8d67', GradientType=0);
+}
+.navbar-custom .navbar-nav > .disabled > a,
+.navbar-custom .navbar-nav > .disabled > a:hover,
+.navbar-custom .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+.navbar-custom .navbar-toggle {
+  border-color: #dddddd;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #dddddd;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+  border-color: #ba7041;
+}
+.navbar-custom .navbar-nav > .dropdown > a:hover .caret,
+.navbar-custom .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #edd7cb;
+  border-bottom-color: #edd7cb;
+}
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+  background-color: #bc7142;
+  color: #edd7cb;
+}
+.navbar-custom .navbar-nav > .open > a .caret,
+.navbar-custom .navbar-nav > .open > a:hover .caret,
+.navbar-custom .navbar-nav > .open > a:focus .caret {
+  border-top-color: #edd7cb;
+  border-bottom-color: #edd7cb;
+}
+.navbar-custom .navbar-nav > .dropdown > a .caret {
+  border-top-color: #762a00;
+  border-bottom-color: #762a00;
+}
+@media (max-width: 767) {
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+    color: #762a00;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #edd7cb;
+    background-color: transparent;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #edd7cb;
+    background-color: #bc7142;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+}
+.navbar-custom .navbar-link {
+  color: #762a00;
+}
+.navbar-custom .navbar-link:hover {
+  color: #edd7cb;
+}
